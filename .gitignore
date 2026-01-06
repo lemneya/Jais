@@ -1,0 +1,35 @@
+# Large model files (too big for GitHub)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Model directories (contain large files)
+jais-13b/
+jais-13b-mlx-4bit/
+jais-hassaniya-lora/
+models/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace cache
+.cache/
+
+# Temporary files
+*.tmp
+*.log
